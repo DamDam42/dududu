@@ -20,7 +20,7 @@ public class TicketController {
     }
 
    @PostMapping("/addTicket")
-    public String staffAddRoom(@ModelAttribute("addTicket")ticket ticket ){
+    public String staffAddRoom(@ModelAttribute("ticket")ticket ticket ){
        
 
         try {
