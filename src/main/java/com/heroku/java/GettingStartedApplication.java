@@ -72,9 +72,9 @@ public class GettingStartedApplication {
         return "staff/staffLogin";
     }
 
-    @GetMapping("/addTicket")
-    public String staffAddRoom() {
-     ;
+    @GetMapping("/viewticket")
+    public String viewticket() {
+     
     return "test/viewticket";
 }
 
