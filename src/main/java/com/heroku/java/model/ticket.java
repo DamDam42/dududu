@@ -13,8 +13,8 @@ public class ticket {
         return this.tickettype;
     }
 
-    public void setTicketType(String ticket) {
-        this.tickettype = ticket;
+    public void setTicketType(String tickettype) {
+        this.tickettype = tickettype;
     }
 
     public double getTicketPrice() {
